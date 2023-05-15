@@ -71,26 +71,23 @@ h1 {
   overflow-wrap: break-word;
   font-weight: 700;
 }
-
 .rating__container p {
   color: var(--Medium-Grey);
   font-size: 15px;
   font-weight: 400;
   text-align: left;
 }
-
 .rating__icon {
   border-radius: 100%;
-  padding-top: 45px;
+  padding-top: 10px;
   text-align: center;
   background: var(--Dark-Blue);
-  height: 45px;
-  width: 45px;
+  height: 10rem;
+  width: 50px;
   background-image: url(images/icon-star.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .rating__container {
   display: flex;
   flex-direction: column;
@@ -105,7 +102,7 @@ h1 {
   );
   justify-content: center;
   padding: 2rem;
-  row-gap: 25px;
+  row-gap: 20px;
 }
 
 .rating__numbers {
@@ -135,17 +132,14 @@ h1 {
   border: none;
   background: var(--Orange);
 }
-
 .submit__button:active {
   background: var(--White);
   color: var(--Orange);
 }
-
 .rating__numbers button:hover {
   color: white;
   background: var(--Light-Grey);
 }
-
 .rating__numbers button:focus {
   color: white;
   background: var(--Orange);
@@ -169,7 +163,6 @@ h1 {
   row-gap: 15px;
   text-align: center;
 }
-
 .thankYou__message {
   display: flex;
   flex-direction: column;
@@ -181,13 +174,11 @@ h1 {
   height: 150px;
   margin-top: 10px;
 }
-
 p.feedback {
   color: var(--Medium-Grey);
   font-size: 15px;
   font-weight: 400;
 }
-
 p.selected__rating {
   margin-bottom: 20px;
   font-size: 14px;
@@ -218,8 +209,8 @@ p.selected__rating {
   }
 
   .rating__icon {
-    height: 3rem;
-    width: 45px;
+    height: 5rem;
+    width: 50px;
   }
 
   .submit__button {
